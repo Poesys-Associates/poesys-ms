@@ -40,11 +40,6 @@ public class CompositePrimaryKeyTest {
 
   private static final String CLASS_NAME = "com.poesys.db.dto.TestNatural";
 
-  /**
-   * Test method for
-   * {@link com.poesys.ms.pk.CompositePrimaryKey#CompositePrimaryKey(com.poesys.ms.pk.IPrimaryKey, com.poesys.ms.pk.IPrimaryKey)}
-   * .
-   */
   @Test
   public void testCompositePrimaryKey() {
     // Create a sequence parent key and a natural subkey with one integer value.

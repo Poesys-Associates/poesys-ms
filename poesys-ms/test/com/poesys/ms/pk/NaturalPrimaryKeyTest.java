@@ -39,13 +39,6 @@ public class NaturalPrimaryKeyTest {
 
   private static final String CLASS_NAME = "com.poesys.db.dto.TestNatural";
 
-  /**
-   * Test method for
-   * {@link com.poesys.ms.pk.NaturalPrimaryKey#NaturalPrimaryKey(java.util.List)}
-   * Test method for
-   * {@link com.poesys.ms.pk.NaturalPrimaryKey#getColumnValues()}.
-   * Single-valued case .
-   */
   @Test
   public void testNaturalPrimaryKey1() {
     // Create a single-valued natural key.
@@ -68,13 +61,6 @@ public class NaturalPrimaryKeyTest {
     assertTrue("Column value wrong", retrievedCol.getValue().equals(value));
   }
 
-  /**
-   * Test method for
-   * {@link com.poesys.ms.pk.NaturalPrimaryKey#NaturalPrimaryKey(java.util.List)}
-   * Test method for
-   * {@link com.poesys.ms.pk.NaturalPrimaryKey#getColumnValues()}.
-   * Multiple-valued case .
-   */
   @Test
   public void testNaturalPrimaryKey2() {
     // Create a multiple-valued natural key.

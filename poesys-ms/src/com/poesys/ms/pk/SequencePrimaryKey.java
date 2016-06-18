@@ -47,7 +47,6 @@ public class SequencePrimaryKey extends AbstractPrimaryKey {
    * @param value the value of the primary key
    * @param className the name of the IDbDto class of the object that the
    *          primary key identifies
-   * @throws InvalidParametersException when the name or value is null
    */
   public SequencePrimaryKey(String name, BigInteger value, String className) {
     super(className);

@@ -36,11 +36,6 @@ public class AssociationPrimaryKeyTest {
   
   private static final String CLASS_NAME = "com.poesys.db.dto.TestNatural";
 
-  /**
-   * Test method for
-   * {@link com.poesys.ms.pk.AssociationPrimaryKey#AssociationPrimaryKey(java.util.List)}
-   * .
-   */
   @Test
   public void testAssociationPrimaryKey() {
     // Create two sequence keys and build an association key.
@@ -55,9 +50,6 @@ public class AssociationPrimaryKeyTest {
                key.getKeys().size() == 2);
   }
 
-  /**
-   * Test method for {@link com.poesys.ms.pk.AssociationPrimaryKey#getKeys()}.
-   */
   @Test
   public void testGetKeys() {
     // Create two sequence keys and build an association key.

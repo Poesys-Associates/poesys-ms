@@ -48,8 +48,6 @@ public class IdentityPrimaryKey extends AbstractPrimaryKey {
    * @param value the integer key value
    * @param className the name of the IDbDto class of the object that the
    *          primary key identifies
-   * 
-   * @throws InvalidParametersException when the name is null
    */
   public IdentityPrimaryKey(String name, BigInteger value, String className) {
     super(className);

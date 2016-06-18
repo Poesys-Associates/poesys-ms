@@ -52,9 +52,6 @@ public class CompositePrimaryKey extends AbstractPrimaryKey {
    * @param subKey the key that completes the primary key
    * @param className the name of the IDbDto class of the object that the
    *          primary key identifies
-   * @throws InvalidParametersException when there is no parent or sub key
-   * @throws DuplicateKeyNameException when there are multiple columns with the
-   *           same name
    */
   public CompositePrimaryKey(IPrimaryKey parentKey,
                              IPrimaryKey subKey,
